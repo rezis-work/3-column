@@ -1,0 +1,133 @@
+/* MAIN STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container-spacer {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  color: #f2f2f2;
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.text {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  margin-bottom: 83px;
+}
+
+.btn {
+  background: #f2f2f2;
+  border-radius: 25px;
+  padding: 11px 31.5px 12px 31.5px;
+  border: none;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.car-img {
+  width: 64px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-bottom: 35px;
+}
+
+/* 3 COLUMNS SECTION */
+
+.column {
+  padding: 171px 260px 129px;
+}
+
+.columns-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sedan-box,
+.suvs-box,
+.luxury-box {
+  padding: 48px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.sedan-box {
+  background-color: #e28625;
+}
+
+.suvs-box {
+  background-color: #006971;
+}
+
+.luxury-box {
+  background-color: #004140;
+}
+
+.btn-sedan {
+  color: #e28625;
+}
+
+.btn-sedan:hover {
+  background-color: #e28625;
+  color: #fff;
+}
+
+.btn-suvs {
+  color: #006971;
+}
+
+.btn-suvs:hover {
+  background-color: #006971;
+  color: #fff;
+}
+
+.btn-luxury {
+  color: #004140;
+}
+
+.btn-luxury:hover {
+  background-color: #004140;
+  color: #fff;
+}
+
+@media (max-width: 56em) {
+  .container-spacer {
+    width: 327px;
+    margin: 0 auto;
+  }
+  .columns-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* border-radius: 8px;
+    overflow: hidden; */
+  }
+  .column {
+    padding: 88px 24px 88px;
+  }
+  .text {
+    margin-bottom: 25px;
+  }
+}
+
+/* CREATED BY REZI KARANADZE */
